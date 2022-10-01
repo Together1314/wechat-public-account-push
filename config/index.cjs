@@ -15,12 +15,13 @@ const USER_CONFIG = {
 
   PROVINCE: '河北',
   CITY: '邯郸',
-  openUrl: 'http://chishenme.xyz/',
+  
 
   USERS: [
     {
       // 想要发送的人的名字
       name: '黄黄宝贝',
+      openUrl: 'http://chishenme.xyz/',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ofX4j50PN_n5pd2GLAIbnLRqGoVY',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
