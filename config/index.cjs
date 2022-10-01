@@ -60,6 +60,31 @@ const USER_CONFIG = {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ofX4j50PN_n5pd2GLAIbnLRqGoVY',
+       openUrl: 'http://chishenme.xyz/',
+      // 使用微信测试号：你想对他发送的模板消息的模板ID
+      useTemplateId: '5lYnVfRhf60dFWethCU6P0m5FAxF25pEmKxNOkJ7G6o',
+      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+      horoscopeDate: '10-26',
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '*生日', name: '黄宝贝', year: '2001', date: '09-10',
+        },
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {
+          type: '生日', name: '韩臭臭', year: '2001', date: '11-15',
+        },
+        {
+          type: '节日', name: '恋爱纪念日', year: '2020', date: '04-25',
+        },
+      ],
+      // 我们在一起已经有xxxx天了的配置
+      customizedDateList: [
+        // 在一起的日子
+        { keyword: 'love_day', date: '2020-04-25' },
+        // 结婚纪念日
+        { keyword: 'marry_day', date: '2022-09-09' },
+      ],
     }
   ],
 
