@@ -14,7 +14,7 @@ const USER_CONFIG = {
   APP_SECRET: 'da3e95bae2c250763303dc618df2b7b1',
 
   PROVINCE: '河北',
-  CITY: '邯郸',
+  CITY: '邯山区',
 
   USERS: [
     {
@@ -23,7 +23,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ofX4j50PN_n5pd2GLAIbnLRqGoVY',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'Vv_6l3RX46lFci0GvKTcYt4nYPTk0WL3TcES-H9Jkgo',
+      useTemplateId: '5lYnVfRhf60dFWethCU6P0m5FAxF25pEmKxNOkJ7G6o',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '10-26',
       festivals: [
