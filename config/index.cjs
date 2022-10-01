@@ -20,8 +20,12 @@ const USER_CONFIG = {
     {
       // 想要发送的人的名字
       name: '黄黄宝贝',
-      PROVINCE: '河北',
-      CITY: '邯郸',
+      //PROVINCE: '河北',
+      //CITY: '邯郸',
+       // 所在省份
+      province: '河北',
+      // 所在城市
+      city: '邯郸',
       openUrl: 'http://chishenme.xyz/',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ofX4j50PN_n5pd2GLAIbnLRqGoVY',
@@ -53,8 +57,12 @@ const USER_CONFIG = {
     {
       // 想要发送的人的名字
       name: '韩韩宝贝',
-      PROVINCE: '北京',
-      CITY: '东城区',
+      //PROVINCE: '北京',
+      //CITY: '东城区',
+       // 所在省份
+      province: '北京',
+      // 所在城市
+      city: '东城区',
       openUrl: 'http://chishenme.xyz/',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ofX4j50PN_n5pd2GLAIbnLRqGoVY',
