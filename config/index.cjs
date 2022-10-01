@@ -23,7 +23,7 @@ const USER_CONFIG = {
       name: '黄黄宝贝',
       openUrl: 'http://chishenme.xyz/',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'ofX4j53NOmcUf0C2tERyIb75D7IY',
+      id: 'ofX4j50PN_n5pd2GLAIbnLRqGoVY',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: '5lYnVfRhf60dFWethCU6P0m5FAxF25pEmKxNOkJ7G6o',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
@@ -53,7 +53,7 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '',
+  CALLBACK_TEMPLATE_ID: '	5lYnVfRhf60dFWethCU6P0m5FAxF25pEmKxNOkJ7G6o',
 
   CALLBACK_USERS: [
     {
