@@ -8,24 +8,24 @@
 const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_ID
-  APP_ID: '',
+  APP_ID: 'wx60fa11bec95c83d6',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '',
+  APP_SECRET: 'da3e95bae2c250763303dc618df2b7b1',
 
-  PROVINCE: '广东',
-  CITY: '惠州',
+  PROVINCE: '河北',
+  CITY: '邯郸',
 
   USERS: [
     {
       // 想要发送的人的名字
-      name: '宝贝',
+      name: '黄黄宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'ofX4j50PN_n5pd2GLAIbnLRqGoVY',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '',
+      useTemplateId: 'Vv_6l3RX46lFci0GvKTcYt4nYPTk0WL3TcES-H9Jkgo',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '12-27',
+      horoscopeDate: '10-26',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
@@ -42,7 +42,7 @@ const USER_CONFIG = {
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-08' },
+        { keyword: 'love_day', date: '2020-04-25' },
         // 结婚纪念日
         { keyword: 'marry_day', date: '2022-09-09' },
       ],
