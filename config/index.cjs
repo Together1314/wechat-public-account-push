@@ -15,6 +15,7 @@ const USER_CONFIG = {
 
   PROVINCE: '河北',
   CITY: '邯郸',
+  openUrl: 'http://chishenme.xyz/',
 
   USERS: [
     {
