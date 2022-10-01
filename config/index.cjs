@@ -90,7 +90,6 @@ const USER_CONFIG = {
         // 结婚纪念日
         { keyword: 'marry_day', date: '2022-09-09' },
       ],
-      LITERARY_PREFERENCE: '',
     },
   ],
 
